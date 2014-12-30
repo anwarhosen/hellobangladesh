@@ -1,0 +1,106 @@
+/* This CSS for small Mobile*/
+@media (max-width: 767px) {
+.logo {width: 97px;}
+a#simple-menu {display:block}
+.mainmenu {display:none}
+.administration, .finance {
+  margin-left: 30px;
+  width: 38%;
+}
+.administration h4 {
+  margin-left: -12px !important;
+  font-size:18px;
+}
+.student h5 {
+  margin-left: -10px !important;
+}
+.student h4 {
+  margin-left: -12px !important;
+  font-size:18px;
+}
+.administration h5 {
+  margin-left: -10px !important;
+}
+.finance h4 {
+  margin-left: -12px !important;
+  font-size:18px;
+}
+.finance h5 {
+  margin-left: -10px !important;
+}
+.report h4 {
+  margin-left: -12px !important;
+  font-size:18px;
+}
+.report h5 {
+  margin-left: -10px !important;
+}
+.student {
+  margin-left: 25px;
+}
+.report {
+  margin-left: 25px;
+}
+}
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+a#simple-menu {display:none}
+.mainmenu {display:block}
+.header {
+  height: 64px;
+}
+.about {
+  margin-top: 20px;
+}
+.search_icon {
+  margin-top: 25px;
+}
+.administration h4 {
+  margin-left: -60px;
+}
+.administration h5 {
+  margin-left: -50px;
+  margin-top: -23px;
+}
+.administration,.finance  {
+  width: 40%;
+}
+.student,.report {
+  width: 40%;
+  margin-left: 20px;
+}
+.student h4 {
+  margin-left: -60px;
+}
+.student h5 {
+  margin-left: -50px;
+  margin-top: -23px;
+}
+.finance h4 {
+  font-size: 22px;
+  margin-left: -37px;
+}
+.finance h5 {
+  margin-left: -25px;
+  margin-top: -15px;
+}
+.report h4 {
+  font-size: 23px;
+  margin-left: -35px;
+}
+.report h5 {
+  margin-left: -25px;
+  margin-top: -15px;
+}
+}
+/* This CSS for Medium Devices */
+@media (min-width: 992px) {
+a#simple-menu {display:none}
+.mainmenu {display:block}
+}
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+a#simple-menu {display:none}
+.mainmenu {display:block}
+}
